@@ -1,4 +1,10 @@
 {
+	"name": "aifb-smw/mediawiki-widgets",
+	"type": "mediawiki-extension",
+	"description": "Widgets extension for media wiki",
+	"require": {
+		"composer/installers": "~1.0"
+	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.9.2",
 		"jakub-onderka/php-console-highlighter": "0.3.2",
@@ -12,5 +18,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "Widgets"
 	}
 }
