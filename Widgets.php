@@ -62,7 +62,7 @@ $wgWidgetsUseFlaggedRevs = false;
 $wgWidgetsCompileDir = "$IP/extensions/Widgets/compiled_templates/";
 
 // Initialize Smarty
-require_once( __DIR__ . '/smarty/libs/Smarty.class.php' );
+//require_once( __DIR__ . '/smarty/libs/Smarty.class.php' );
 
 // Load extension's classes.
 $wgAutoloadClasses['WidgetRenderer'] = __DIR__ . '/WidgetRenderer.php';
